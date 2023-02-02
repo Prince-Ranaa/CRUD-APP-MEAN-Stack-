@@ -1,0 +1,54 @@
+nav {
+  padding: 20px 50px;
+  background-color: rgb(88, 204, 243);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+
+  button {
+    color: rgba(0, 0, 0, 0.698);
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+  }
+
+  button:hover {
+    color: rgb(88, 204, 243);
+    transition: 0.1s;
+  }
+}
+
+.table {
+  border: 1px solid black;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.edit {
+  background-color: rgb(2, 123, 12);
+  color: white;
+  border: none;
+  margin-right: 30px;
+  padding: 5px 12px;
+  border-radius: 5px;
+}
+
+.edit:hover {
+  background-color: rgb(1, 174, 1);
+}
+
+.delete {
+  background-color: rgb(221, 39, 39);
+  color: white;
+  border: none;
+  margin-right: 30px;
+  padding: 5px 12px;
+  border-radius: 5px;
+}
+
+.delete:hover {
+  background-color: rgb(247, 14, 14);
+}
